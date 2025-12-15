@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт-портфолио Городничева П-11</title>
+</head>
+<body>
+    <header>
+        <div class="header playpen-sans">
+            <h1>Новичок в верстке, профи в старании</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#request">Анкета</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                </ul>
+            </nav>            
+        </div>
+    </header>
+    <main class="main playpen-sans">
+        <div class="first-part">
+            <div class="main-circles">
+                <p>Junior-верстальщик</p>               
+                <img src="frames/круги.svg" alt="круги">
+            </div>
+            <div class="main-info">
+                <h2 id="request">Нужен сайт? В два счёта!</h2>
+                <p>Заполните анкету</p>
+                <div class="main-form">
+                    <form action="#" method="post" class="form">
+                        <label>Введите ваше имя и фамилию:</label>
+                        <input type="text" placeholder="Иван Иванов" required>
+                        <label>Введите ваш номер телефона:</label>
+                        <input type="tel" placeholder="+7123456789" minlength="12" maxlength="12" required>
+                        <label>Введите ваш E-mail:</label>
+                        <input type="email" placeholder="ivanov@mail.ru" required>
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="second-part">
+            <h2 id="portfolio">Порфтолио</h2>
+            <div class="portfolio">
+                <div class="site">
+                    <img src="img/site1.png" alt="site1">
+                    <p>“ТехноМост — инновационная русскоязычная IT-компания, специализирующаяся на разработке программного обеспечения...”</p>
+                    <form action="https://mefnya.github.io/TechnoMost/" target="_blank">
+                        <button type="submit">Перейти</button>
+                    </form>
+                </div>
+                <div class="site">
+                    <img src="img/site2.png" alt="site2">
+                    <p>Сайт, посвященный полезности мёда. Кроме интересной и познавательной статьи, вы также можете приобрести вкусный мёд</p>
+                    <form action="https://mefnya.github.io/Rabota_s_metkami/" target="_blank">
+                        <button type="submit">Перейти</button>
+                    </form>
+                </div>
+                <div class="site">
+                    <img src="img/site3.png" alt="site3">
+                    <p>Первый разработанный сайт, в котором вы также можете оставить заявку и описать желаемый результат работы</p>
+                    <form action="https://mefnya.github.io/My_first_site/" target="_blank">
+                        <button type="submit">Перейти</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer class="footer playpen-sans">
+        <div>
+            <a href="#"><img src="icons/ok.svg" alt="ok" width="50"></a>
+            <a href="#"><img src="icons/vk.svg" alt="vk" width="50"></a>
+        </div>
+        <div class="footer-a">
+            <p>Остались вопросы? <br>Напишите нам:</p>
+            <a href="#">mail@mail.ru</a>
+        </div>
+    </footer>
+</body>
+</html>
